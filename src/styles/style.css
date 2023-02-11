@@ -1,0 +1,25 @@
+.card {
+  background-color: #fff;
+  box-shadow: 5px 5px 100px rgba(87, 88, 89, 0.1);
+}
+.card:hover {
+  background-color: #45b871;
+  box-shadow: 8px 8px 50px rgba(18, 143, 66, 0.3);
+}
+.card:hover > .card__number {
+  background-color: #fff;
+  color: #000;
+}
+.card:hover > .card__title {
+  color: #fff;
+}
+
+.play__works:hover > div {
+  background-color: #4c68ff;
+}
+.play__works:hover > div > i {
+  color: #ddeef2;
+}
+.play__works:hover > h2 {
+  color: #4c68ff;
+}
