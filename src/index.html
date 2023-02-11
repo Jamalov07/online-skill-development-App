@@ -560,68 +560,66 @@
       <!-- about section start -->
       <section class="about">
         <div class="container mx-auto">
-          <h1 class="text-center text-5xl font-semibold mb-[50px]">
-            Students say about us
-          </h1>
-          <div class="content flex">
-            <div
-              class="content-about-item w-[620px] mb-80 ml-12 bg-white shadow-2xl rounded-md"
-            >
-              <img
-                src="./images/first_women.png"
-                alt="first-student"
-                class="py-12 ml-12"
-              />
-              <p class="w-[481px] text-[#8C8E90] text-2xl font-sans ml-12 mb-4">
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English.
-              </p>
-              <h1 class="text-black font-bold text-2xl ml-12">Jeliya Mathus</h1>
-              <h1 class="text-[#636262] text-xl ml-12">
-                Product Designer,Google
-              </h1>
-            </div>
-            <div class="content-item-2">
+          <div
+            class="about-wrapper my-[140px] flex flex-col justify-between min-h-[938px]"
+          >
+            <h1 class="text-center text-6xl font-semibold text-[#242323]">
+              Students say about us
+            </h1>
+            <div class="content justify-between flex">
               <div
-                class="students-2 w-[520px] h-80 ml-20 bg-white shadow-2xl rounded-md"
+                class="content-about-item flex flex-col justify-between w-[695px] h-[591px] bg-white shadow-xl hover:shadow-2xl active:shadow-xl cursor-pointer rounded-md py-[82px] px-[50px]"
               >
                 <img
-                  src="./images/second_men.png"
-                  alt="second_men"
-                  class="ml-10 py-8"
+                  src="./images/first_women.png"
+                  alt="first-student"
+                  class="h-[150px] w-[150px]"
                 />
-                <p class="w-[461px] text-[#8C8E90] text-md font-sans ml-10">
+                <p class="text-[#8C8E90] text-[28px] font-sans">
                   The point of using Lorem Ipsum is that it has a more-or-less
                   normal distribution of letters, as opposed to using 'Content
                   here, content here', making it look like readable English.
                 </p>
-                <h1 class="text-black font-bold text-xl mt-4 ml-10">
-                  Adam Kauthe
-                </h1>
-                <h1 class="text-[#636262] text-md ml-10">
-                  Software Engineer,Google
-                </h1>
+                <h1 class="text-black font-bold text-2xl">Jeliya Mathus</h1>
+                <h1 class="text-[#636262] text-xl">Product Designer,Google</h1>
               </div>
-              <div
-                class="students-3 w-[520px] h-80 mt-[50px] mb-44 ml-20 bg-white shadow-2xl rounded-md"
-              >
-                <img
-                  src="./images/last_studen.png"
-                  alt="last_student"
-                  class="ml-10 py-8"
-                />
-                <p class="w-[461px] text-[#8C8E90] text-md font-sans ml-10">
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters, as opposed to using 'Content
-                  here, content here', making it look like readable English.
-                </p>
-                <h1 class="text-black font-bold text-xl mt-4 ml-10">
-                  Maluka kamil
-                </h1>
-                <h1 class="text-[#636262] text-md ml-10">
-                  Business consultant,Zoom
-                </h1>
+              <div class="content-item-2 flex flex-col justify-between">
+                <div
+                  class="students-2 w-[634px] h-[382px] shadow-xl hover:shadow-2xl active:shadow-xl cursor-pointer rounded-md px-[38px] py-[50px] flex flex-col justify-between"
+                >
+                  <img
+                    src="./images/second_men.png"
+                    alt="second_men"
+                    class="w-[100px] h-[100px]"
+                  />
+                  <p class="text-[#8C8E90] text-md font-sans">
+                    The point of using Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, as opposed to using 'Content
+                    here, content here', making it look like readable English.
+                  </p>
+                  <h1 class="text-black font-bold text-xl">Adam Kauthe</h1>
+                  <h1 class="text-[#636262] text-md">
+                    Software Engineer,Google
+                  </h1>
+                </div>
+                <div
+                  class="students-3 w-[634px] h-[382px] shadow-xl hover:shadow-2xl active:shadow-xl cursor-pointer rounded-md px-[38px] py-[50px] flex flex-col justify-between"
+                >
+                  <img
+                    src="./images/last_studen.png"
+                    alt="last_student"
+                    class="w-[100px] h-[100px]"
+                  />
+                  <p class="text-[#8C8E90] text-md font-sans">
+                    The point of using Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, as opposed to using 'Content
+                    here, content here', making it look like readable English.
+                  </p>
+                  <h1 class="text-black font-bold text-xl">Maluka kamil</h1>
+                  <h1 class="text-[#636262] text-md">
+                    Business consultant,Zoom
+                  </h1>
+                </div>
               </div>
             </div>
           </div>
@@ -632,7 +630,7 @@
     <footer>
       <div class="container mx-auto">
         <div
-          class="bg-red-700 bg-center mb-96 py-16"
+          class="py-16 flex justify-around items-center flex-col min-h-[452px] mb-[140px]"
           style="background-image: url('./images/footer_bg.png')"
         >
           <h1 class="text-center text-white text-5xl font-bold">
@@ -641,14 +639,14 @@
           <h1 class="text-center text-white text-5xl font-bold">
             Free Trial For 20Days
           </h1>
-          <div class="btns flex flex-row justify-center gap-2 mt-4">
+          <div class="btns flex flex-row justify-between min-w-[400px]">
             <button
-              class="btn border border-solid py-5 px-9 text-white rounded-md"
+              class="btn border border-solid py-5 px-9 text-white rounded-md hover:bg-sky-600 hover:border-none hover:text-white hover:shadow-md active:bg-sky-800"
             >
               Sign up
             </button>
             <button
-              class="register border border-transparent bg-white font-semibold py-5 px-7 rounded-md"
+              class="register border border-transparent bg-white font-semibold py-5 px-7 rounded-md hover:bg-sky-600 hover:text-white hover:shadow-md active:bg-sky-800"
             >
               Start free trial
             </button>
