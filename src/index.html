@@ -7,6 +7,12 @@
     <title>Document</title>
     <!-- TAILWIND CDN-->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- BOXICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
     <!-- Style -->
     <link rel="stylesheet" href="./styles/style.css" />
     <!-- boxicon -->
@@ -18,11 +24,276 @@
   <!-- BODY START-->
   <body>
     <!-- header start -->
-    <header></header>
+    <header
+      class="pt-[35px] bg-[#E4F5EB] text-[19px] text-[#575859] font-medium"
+    >
+      <div class="container mx-auto">
+        <nav class="nav flex justify-between items-center">
+          <a href="#" class="text-2xl font-bold text-[#242323] mr-[200px]">
+            <span class="text-[#45B871]">U</span>-Coda
+          </a>
+          <ul class="flex justify-between items-center w-[450px]">
+            <li class="active text-black"><a href="#">Home</a></li>
+            <li class="drop-down-btn cursor-pointer hover:text-black">
+              All Courses <i class="bx bx-chevron-down drop-down-btn"></i>
+            </li>
+            <li class="hover:text-black"><a href="#">Pricing</a></li>
+            <li class="hover:text-black"><a href="#">Blog</a></li>
+          </ul>
+
+          <ul class="flex justify-between items-center gap-[39px]">
+            <li class="hover:text-black"><a href="#">Sign in</a></li>
+            <li>
+              <button
+                class="w-[136px] h-[54px] bg-[#45B871] text-white rounded shadow hover:bg-[#44a86a] active:bg-[#45B871]"
+              >
+                Free trial
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <!-- main start -->
     <main>
       <!-- intro section start -->
-      <section class="intro"></section>
+      <section class="intro bg-[#E4F5EB] pb-36">
+        <div class="container mx-auto">
+          <div class="flex items-center">
+            <div class="info pt-[174px] mr-[220px]">
+              <h1 class="w-[612px] text-[63px] font-bold text-[#242323]">
+                Anytime,anywhere Develop your skill by Online
+              </h1>
+              <p class="text-[#6C6C6A] w-[626px] mt-[31px]">
+                Online education is a form of education where students use their
+                home computers through the internet. For many nontraditional
+                students, among them all those who want to continue.
+              </p>
+              <div class="btn-with-play flex items-center gap-4 mt-[49px]">
+                <button
+                  class="w-[202px] h-[73px] bg-[#45B871] text-white rounded shadow mr-3 text-lg font-semibold hover:bg-[#44a86a] active:bg-[#45B871]"
+                >
+                  All Courses
+                </button>
+                <div
+                  class="w-[66px] h-[66px] rounded-full bg-white flex items-center justify-center shadow cursor-pointer"
+                >
+                  <img src="./images/Polygon 5.svg" alt="Play icon" />
+                </div>
+                <p class="text-xl font-semibold cursor-pointer">Play Video</p>
+              </div>
+            </div>
+            <div
+              class="mt-[98px] w-[643px] h-[643px] rounded-full border-solid border-[#BEEBF8] border-[5px] flex items-center justify-center"
+            >
+              <div
+                class="bg-[#95CDDC] w-[586px] h-[586px] rounded-full flex items-center  relative" 
+              >
+                <img
+                  src="./images/girl-full.png"
+                  class="mb-8 z-10 rounded-b-full"
+                  alt="Girl"
+                />
+                <img src="./images/intro-shape.svg" class="absolute" alt="" />
+              </div>
+
+              <ul class="absolute z-50">
+                <li
+                  class="flex w-[196px] h-[88px] bg-white shadow items-center justify-center relative rounded -left-[110px] -top-[225px]"
+                >
+                  <div
+                    class="bg-blue-600 w-[53px] h-[53px] rounded-full flex items-center justify-center absolute -left-8"
+                  >
+                    <img src="./images/Vector (1).svg" alt="" />
+                  </div>
+                  <div class="flex flex-col items-center gap-1">
+                    <p class="text-[17px] font-semibold text-[#575859]">
+                      Great Teacher
+                    </p>
+                    <div class="flex gap-2">
+                      <img src="./images/Star 5.svg" alt="" />
+                      <img src="./images/Star 5.svg" alt="" />
+                      <img src="./images/Star 5.svg" alt="" />
+                      <img src="./images/Star 5.svg" alt="" />
+                      <img src="./images/Star 5.svg" alt="" />
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="w-[288px] h-[111px] bg-white shadow relative rounded -top-[190px] -right-[320px]"
+                >
+                  <div
+                    class="bg-blue-600 w-[53px] h-[53px] rounded-full flex items-center justify-center absolute left-[104px] -top-6"
+                  >
+                    <img src="./images/Vector.svg" alt="" />
+                  </div>
+
+                  <div class="flex relative">
+                    <div class="mt-[40px]">
+                      <ul class="absolute left-4">
+                        <!--  -->
+                        <li
+                          class="w-[38px] h-[38px] rounded-full absolute z-0 overflow-hidden left-0"
+                        >
+                          <img
+                            src="./images/happy-good-looking-man-glasses-pointing-finger-left_176420-21192 1.svg"
+                            alt=""
+                          />
+                        </li>
+                        <!--  -->
+                        <li
+                          class="w-[38px] h-[38px] rounded-full absolute overflow-hidden z-10 left-6"
+                        >
+                          <img
+                            src="./images/waist-up-shot-pretty-girl-smiles-pleasantly_273609-28224 2.svg"
+                            alt=""
+                          />
+                        </li>
+                        <!--  -->
+                        <li
+                          class="w-[38px] h-[38px] rounded-full absolute overflow-hidden z-20 left-12"
+                        >
+                          <img
+                            src="./images/education-teachers-university-schools-concept_1258-14246 1.svg"
+                            alt=""
+                          />
+                        </li>
+                        <!-- -->
+                        <li
+                          class="w-[38px] h-[38px] rounded-full bg-[#FFF3F3] shadow absolute overflow-hidden z-30 left-[80px] flex items-center justify-center"
+                        >
+                          <p class="text-[#575859] text-[13px] font-medium">
+                            10+
+                          </p>
+                        </li>
+                      </ul>
+
+                      <p
+                        class="w-[122px] text-[#575859] text-[15px] font-semibold absolute right-5"
+                      >
+                        15k Regular Happy Students
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="w-[298px] h-[97px] bg-white shadow rounded flex items-center justify-center gap-3 absolute -bottom-[70px] -left-[240px]"
+                >
+                  <div
+                    class="bg-blue-600 w-[53px] h-[53px] rounded-full flex items-center justify-center"
+                  >
+                    <img src="./images/Group 22.svg" alt="" />
+                  </div>
+                  <div
+                    class="flex flex-col text-lg text-[#575859] font-semibold"
+                  >
+                    <h2 class="text-[17px]">Weekly Progress Exam</h2>
+                    <div class="flex gap-2">
+                      <img src="./images/Group 19.svg" alt="" />
+                      <p class="text-[#696969] text-[11px] font-normal">
+                        Time: 9.00 pm, Sunday
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- <ul class="mb-[1000px] ml-36 flex gap-10">
+          <li
+            class="flex w-[196px] h-[88px] bg-white shadow items-center justify-center relative rounded"
+          >
+            <div
+              class="bg-blue-600 w-[53px] h-[53px] rounded-full flex items-center justify-center absolute -left-8"
+            >
+              <img src="./images/Vector (1).svg" alt="" />
+            </div>
+            <div class="flex flex-col items-center gap-1">
+              <p class="text-[17px] font-semibold text-[#575859]">
+                Great Teacher
+              </p>
+              <div class="flex gap-2">
+                <img src="./images/Star 5.svg" alt="" />
+                <img src="./images/Star 5.svg" alt="" />
+                <img src="./images/Star 5.svg" alt="" />
+                <img src="./images/Star 5.svg" alt="" />
+                <img src="./images/Star 5.svg" alt="" />
+              </div>
+            </div>
+          </li>
+          <li class="w-[288px] h-[111px] bg-white shadow relative rounded">
+            <div
+              class="bg-blue-600 w-[53px] h-[53px] rounded-full flex items-center justify-center absolute left-[104px] -top-6"
+            >
+              <img src="./images/Vector.svg" alt="" />
+            </div>
+
+            <div class="flex relative mt-[40px]">
+              <ul class="absolute left-4">
+
+                <li
+                  class="w-[38px] h-[38px] rounded-full absolute z-0 overflow-hidden left-0"
+                >
+                  <img
+                    src="./images/happy-good-looking-man-glasses-pointing-finger-left_176420-21192 1.svg"
+                    alt=""
+                  />
+                </li>
+                
+                <li
+                  class="w-[38px] h-[38px] rounded-full absolute overflow-hidden z-10 left-6"
+                >
+                  <img
+                    src="./images/waist-up-shot-pretty-girl-smiles-pleasantly_273609-28224 2.svg"
+                    alt=""
+                  />
+                </li>
+                
+                <li
+                  class="w-[38px] h-[38px] rounded-full absolute overflow-hidden z-20 left-12"
+                >
+                  <img
+                    src="./images/education-teachers-university-schools-concept_1258-14246 1.svg"
+                    alt=""
+                  />
+                </li>
+                
+                <li
+                  class="w-[38px] h-[38px] rounded-full bg-[#FFF3F3] shadow absolute overflow-hidden z-30 left-[72px] flex items-center justify-center"
+                >
+                  <p class="text-[#575859] text-[13px] font-medium">10+</p>
+                </li>
+              </ul>
+
+              <p
+                class="w-[122px] text-[#575859] font-semibold absolute right-5"
+              >
+                15k Regular Happy Students
+              </p>
+            </div>
+          </li>
+          <li
+            class="w-[298px] h-[97px] bg-white shadow rounded flex items-center justify-center gap-3"
+          >
+            <div
+              class="bg-blue-600 w-[53px] h-[53px] rounded-full flex items-center justify-center"
+            >
+              <img src="./images/Group 22.svg" alt="" />
+            </div>
+            <div class="flex flex-col text-lg text-[#575859] font-semibold">
+              <h2>Weekly Progress Exam</h2>
+              <div class="flex gap-2">
+                <img src="./images/Group 19.svg" alt="" />
+                <p class="text-[#696969] text-[11px] font-normal">
+                  Time: 9.00 pm, Sunday
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul> -->
+      </section>
       <!-- partners section start -->
       <section class="partners pt-[75px] pb-[85px]">
         <div class="max-w-[1421px] container mx-auto">
